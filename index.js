@@ -1,9 +1,6 @@
 const fs = require('fs'); // Grabs FILE SYSTEM
 const inquirer = require('inquirer'); // Grabs INQUIRER
-
-const generateReadme = () => { // FUNCTION Generates Readme Text
-
-}
+const generateMarkdown = require('./generateMarkdown.js');
 
 const init = async () => {
 
@@ -17,7 +14,7 @@ const init = async () => {
 
         ]);
 
-        const readme = generateReadme(answers);
+        const readme = generateMarkdown(answers);
 
         fs.writeFileSync ('readme.md', readme);
 
