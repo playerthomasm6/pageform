@@ -1,37 +1,43 @@
 // function to generate markdown for README
 const generateMarkdown = (data, licenseData) => {
     return `# ${data.title}
-   
-## Installation:
 
-${data.installation}
+ ![${data.imageAltTag}](${data.imageURL})
+ 
+# Table of Contents
+* [Description](Description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
-## Usage
+ ## Description: 
+ ${data.briefDescription}
+ 
+ ${data.alsoThis}
+    
+ ## Installation:
+ 
+ 1. ${data.installation1}
+ 1. ${data.installation2}
+ 
+ ## Usage
+ 
+ ${data.usage}
+ 
+ ## Credits
+ 
+ ${data.credit1},  ${data.credit1Git}
 
-${data.usage}
-
-## Credits
-
-${data.credit1},  ${data.credit1Git}
-${data.credit2},  ${data.credit2Git}
-${data.credit3},  ${data.credit3Git}
-${data.credit4},  ${data.credit4Git}
-
-## License
-
+## License 
 ${licenseData}
 
 
-    ## Description: 
-${data.briefDescription}
-## Some more shit here:
-${data.alsoThis}
+
 
 
   `;
   };
   
   module.exports = generateMarkdown;
-
-//   ![${data.imageAltTag}](${imageURL})
   
