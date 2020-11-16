@@ -1,4 +1,4 @@
-# Readme File Generator
+# Homework Example Project
 
  ![ReadmeGenLogo](./images/default-image.jpg)
  
@@ -10,21 +10,21 @@
 * [License](#license)
 
  ## Description: 
- This project uses prompts to get user generated answers that will be used to create a README file.
+ This is the description area and you can add up to two inputs for the description
  
- This file can of course be edited later, but will have everything the user needs for a quality readme.
+ this is the second description line
     
  ## Installation:
  
- 1. To install simply download the files from Github.  Once downloaded open 'index.js' in VS code.
- 1. Use VS Code to open and integrated terminal and run the command 'node index.js' to start the prompts.  Once the prompts are complete a README file will be generated in the same file location as 'index.js'
+ 1. This is where the installation instructions go
+ 1. This is another line for installation instructions.
  
  ## Usage
  
- This program is used to create quality READMEs for Github repos
+ This program makes...
  
  ## Credits
- | Thomsa M. Player| http://github.com/playerthomasm6|
+ | Thomas M Player| github.com/playerthomasm6|
  |----------------|-------------------|
 
 ## License 

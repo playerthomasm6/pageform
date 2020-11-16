@@ -54,18 +54,26 @@ const init = async () => {
 
 
 
-            { // Additional Description
+            { // CREDIT
                 type: 'input',
                 name: 'credit1',
                 message: 'Who is the primary contriubutor?',
                 default: 'ENTER NAME HERE'
             },
-            { // Additional Description
+            { // CREDIT GITHUB REPO
                 type: 'input',
-                name: 'alsoThis',
-                message: 'Please add any additional description.',
-                default: 'PROJECT DESCRIPTION LINE TWO HERE'
+                name: 'credit1Git',
+                message: 'Please enter your Github Link.',
+                default: 'USER GITHUB LINK'
             },
+
+            { // USAGE
+                type: 'input',
+                name: 'usage',
+                message: 'What is this program used for?',
+                default: 'PROJECT USAGE HERE'
+            },
+            
             
 
 

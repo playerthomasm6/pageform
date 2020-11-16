@@ -26,8 +26,8 @@ const generateMarkdown = (data, licenseData) => {
  ${data.usage}
  
  ## Credits
- 
- ${data.credit1},  ${data.credit1Git}
+ | ${data.credit1}| ${data.credit1Git}|
+ |----------------|-------------------|
 
 ## License 
 ${licenseData}
